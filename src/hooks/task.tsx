@@ -2,8 +2,7 @@
 import React, {createContext, useCallback, useState, useContext} from 'react';
 
 // Libraries
-import {MMKV, useMMKVString} from 'react-native-mmkv';
-import {useEffect} from 'react';
+import {MMKV} from 'react-native-mmkv';
 
 // Misc
 import {TODO_KEY} from 'constants';
